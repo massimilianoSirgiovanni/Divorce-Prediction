@@ -1,0 +1,285 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     divorce-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.RenameNominalValues-Rlast-N1:Divorced, 0:Married
+Instances:    170
+Attributes:   55
+              Atr1
+              Atr2
+              Atr3
+              Atr4
+              Atr5
+              Atr6
+              Atr7
+              Atr8
+              Atr9
+              Atr10
+              Atr11
+              Atr12
+              Atr13
+              Atr14
+              Atr15
+              Atr16
+              Atr17
+              Atr18
+              Atr19
+              Atr20
+              Atr21
+              Atr22
+              Atr23
+              Atr24
+              Atr25
+              Atr26
+              Atr27
+              Atr28
+              Atr29
+              Atr30
+              Atr31
+              Atr32
+              Atr33
+              Atr34
+              Atr35
+              Atr36
+              Atr37
+              Atr38
+              Atr39
+              Atr40
+              Atr41
+              Atr42
+              Atr43
+              Atr44
+              Atr45
+              Atr46
+              Atr47
+              Atr48
+              Atr49
+              Atr50
+              Atr51
+              Atr52
+              Atr53
+              Atr54
+              Class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Atr40 = 0: Married (72.0/1.0)
+Atr40 = 1: Married (13.0/1.0)
+Atr40 = 2
+|   Atr6 = 0: Married (3.0)
+|   Atr6 = 1: Married (0.0)
+|   Atr6 = 2: Divorced (2.0)
+|   Atr6 = 3: Married (0.0)
+|   Atr6 = 4: Divorced (1.0)
+Atr40 = 3: Divorced (23.0)
+Atr40 = 4: Divorced (56.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+    inst#     actual  predicted error prediction
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9 2:Divorced 2:Divorced       1 
+       10  1:Married  1:Married       0.986 
+       11  1:Married 2:Divorced   +   1 
+       12  1:Married  1:Married       0.9 
+       13  1:Married 2:Divorced   +   1 
+       14  1:Married  1:Married       0.986 
+       15  1:Married 2:Divorced   +   1 
+       16  1:Married  1:Married       0.9 
+       17  1:Married  1:Married       0.9 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9 2:Divorced 2:Divorced       1 
+       10  1:Married  1:Married       0.986 
+       11  1:Married  1:Married       0.986 
+       12  1:Married  1:Married       0.986 
+       13  1:Married  1:Married       0.986 
+       14  1:Married  1:Married       0.986 
+       15  1:Married  1:Married       0.986 
+       16  1:Married  1:Married       0.986 
+       17  1:Married  1:Married       0.986 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9 2:Divorced 2:Divorced       1 
+       10  1:Married  1:Married       1 
+       11  1:Married  1:Married       1 
+       12  1:Married  1:Married       1 
+       13  1:Married  1:Married       1 
+       14  1:Married  1:Married       1 
+       15  1:Married 2:Divorced   +   1 
+       16  1:Married  1:Married       1 
+       17  1:Married  1:Married       1 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9 2:Divorced 2:Divorced       1 
+       10  1:Married  1:Married       0.986 
+       11  1:Married  1:Married       0.986 
+       12  1:Married  1:Married       0.986 
+       13  1:Married  1:Married       0.986 
+       14  1:Married  1:Married       0.986 
+       15  1:Married  1:Married       0.986 
+       16  1:Married  1:Married       0.986 
+       17  1:Married 2:Divorced   +   1 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced  1:Married   +   1 
+        9  1:Married  1:Married       1 
+       10  1:Married  1:Married       1 
+       11  1:Married  1:Married       1 
+       12  1:Married  1:Married       1 
+       13  1:Married  1:Married       1 
+       14  1:Married  1:Married       1 
+       15  1:Married  1:Married       1 
+       16  1:Married  1:Married       1 
+       17  1:Married  1:Married       1 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9  1:Married  1:Married       0.986 
+       10  1:Married  1:Married       0.986 
+       11  1:Married  1:Married       1 
+       12  1:Married  1:Married       0.986 
+       13  1:Married  1:Married       0.986 
+       14  1:Married  1:Married       1 
+       15  1:Married  1:Married       0.986 
+       16  1:Married  1:Married       0.986 
+       17  1:Married  1:Married       0.986 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced  1:Married   +   0.986 
+        8 2:Divorced 2:Divorced       1 
+        9  1:Married  1:Married       0.833 
+       10  1:Married  1:Married       0.986 
+       11  1:Married  1:Married       0.986 
+       12  1:Married  1:Married       0.986 
+       13  1:Married  1:Married       0.986 
+       14  1:Married  1:Married       0.833 
+       15  1:Married  1:Married       0.833 
+       16  1:Married  1:Married       0.833 
+       17  1:Married  1:Married       0.833 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       0.75 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9  1:Married  1:Married       1 
+       10  1:Married  1:Married       1 
+       11  1:Married  1:Married       1 
+       12  1:Married  1:Married       1 
+       13  1:Married  1:Married       1 
+       14  1:Married  1:Married       1 
+       15  1:Married  1:Married       1 
+       16  1:Married  1:Married       0.9 
+       17  1:Married  1:Married       1 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced 2:Divorced       1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9  1:Married  1:Married       0.986 
+       10  1:Married  1:Married       0.986 
+       11  1:Married  1:Married       0.986 
+       12  1:Married  1:Married       0.986 
+       13  1:Married  1:Married       0.986 
+       14  1:Married  1:Married       0.986 
+       15  1:Married  1:Married       0.986 
+       16  1:Married  1:Married       0.986 
+       17  1:Married  1:Married       0.986 
+        1 2:Divorced 2:Divorced       1 
+        2 2:Divorced 2:Divorced       1 
+        3 2:Divorced 2:Divorced       1 
+        4 2:Divorced  1:Married   +   1 
+        5 2:Divorced 2:Divorced       1 
+        6 2:Divorced 2:Divorced       1 
+        7 2:Divorced 2:Divorced       1 
+        8 2:Divorced 2:Divorced       1 
+        9  1:Married  1:Married       1 
+       10  1:Married  1:Married       1 
+       11  1:Married  1:Married       1 
+       12  1:Married  1:Married       1 
+       13  1:Married  1:Married       1 
+       14  1:Married  1:Married       1 
+       15  1:Married  1:Married       1 
+       16  1:Married  1:Married       1 
+       17  1:Married  1:Married       1 
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         162               95.2941 %
+Incorrectly Classified Instances         8                4.7059 %
+Kappa statistic                          0.9059
+Mean absolute error                      0.0587
+Root mean squared error                  0.2199
+Relative absolute error                 11.7458 %
+Root relative squared error             43.9675 %
+Total Number of Instances              170     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,942    0,036    0,964      0,942    0,953      0,906    0,948     0,926     Married
+                 0,964    0,058    0,942      0,964    0,953      0,906    0,948     0,927     Divorced
+Weighted Avg.    0,953    0,047    0,953      0,953    0,953      0,906    0,948     0,927     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 81  5 |  a = Married
+  3 81 |  b = Divorced
+

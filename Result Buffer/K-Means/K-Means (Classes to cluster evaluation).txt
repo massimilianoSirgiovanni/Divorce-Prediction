@@ -1,0 +1,165 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     divorce-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.RenameNominalValues-Rlast-N1:Divorced, 0:Married
+Instances:    170
+Attributes:   55
+              Atr1
+              Atr2
+              Atr3
+              Atr4
+              Atr5
+              Atr6
+              Atr7
+              Atr8
+              Atr9
+              Atr10
+              Atr11
+              Atr12
+              Atr13
+              Atr14
+              Atr15
+              Atr16
+              Atr17
+              Atr18
+              Atr19
+              Atr20
+              Atr21
+              Atr22
+              Atr23
+              Atr24
+              Atr25
+              Atr26
+              Atr27
+              Atr28
+              Atr29
+              Atr30
+              Atr31
+              Atr32
+              Atr33
+              Atr34
+              Atr35
+              Atr36
+              Atr37
+              Atr38
+              Atr39
+              Atr40
+              Atr41
+              Atr42
+              Atr43
+              Atr44
+              Atr45
+              Atr46
+              Atr47
+              Atr48
+              Atr49
+              Atr50
+              Atr51
+              Atr52
+              Atr53
+              Atr54
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 3423.0
+
+Initial starting points (random):
+
+Cluster 0: 3,2,3,2,3,3,3,3,3,3,4,3,3,4,3,3,3,3,3,4,1,1,1,1,2,1,1,1,1,3,2,3,2,2,1,1,3,3,4,4,2,2,3,2,3,2,2,3,3,3,3,2,2,2
+Cluster 1: 0,0,2,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2,1,0,2,3,0,1,0,2,0,0,0,0,0,2,3,1,2,1,2,1,2,2,0
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+               (170.0)     (80.0)     (90.0)
+============================================
+Atr1                 0          3          0
+Atr2                 0          3          0
+Atr3                 3          3          0
+Atr4                 0          3          0
+Atr5                 0          3          0
+Atr6                 0          1          0
+Atr7                 0          1          0
+Atr8                 0          3          0
+Atr9                 0          3          0
+Atr10                0          3          0
+Atr11                0          3          0
+Atr12                0          3          0
+Atr13                0          3          0
+Atr14                0          3          0
+Atr15                0          3          0
+Atr16                0          3          0
+Atr17                0          3          0
+Atr18                0          3          0
+Atr19                0          3          0
+Atr20                0          3          0
+Atr21                0          3          0
+Atr22                0          3          0
+Atr23                0          3          0
+Atr24                0          3          0
+Atr25                0          3          0
+Atr26                0          3          0
+Atr27                0          3          0
+Atr28                0          2          0
+Atr29                0          3          0
+Atr30                0          3          0
+Atr31                4          4          0
+Atr32                4          4          0
+Atr33                0          4          0
+Atr34                0          4          0
+Atr35                0          4          0
+Atr36                0          4          0
+Atr37                4          4          0
+Atr38                0          4          0
+Atr39                4          4          0
+Atr40                0          4          0
+Atr41                4          4          0
+Atr42                4          4          0
+Atr43                4          4          2
+Atr44                0          4          0
+Atr45                4          4          0
+Atr46                4          4          3
+Atr47                4          4          0
+Atr48                4          4          2
+Atr49                4          4          0
+Atr50                4          4          2
+Atr51                4          4          2
+Atr52                4          4          1
+Atr53                4          4          0
+Atr54                4          4          0
+
+
+
+
+Time taken to build model (full training data) : 0.04 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       80 ( 47%)
+1       90 ( 53%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  <-- assigned to cluster
+  0 86 | Married
+ 80  4 | Divorced
+
+Cluster 0 <-- Divorced
+Cluster 1 <-- Married
+
+Incorrectly clustered instances :	4.0	  2.3529 %
+
